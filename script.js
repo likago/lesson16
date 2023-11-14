@@ -28,8 +28,14 @@ console.log("I am a teenager");
 console.log( "I am an adult");
 };
 5.
-let numbersArray = [1, 2, 3, 4, 5]; {
-    for (let i = 0; i < 6; i++ ) {
-        console.log(i);
-    }
-};
+// let numbersArray = [1, 2, 3, 4, 5]; {
+//     for (let i = 0; i < 6; i++ ) {
+//         console.log(i);
+//     }
+// };
+
+let numb = '';
+for (let i = 0; i < 6; i++) {
+    numb = numb + i; 
+}
+console.log(numb);
