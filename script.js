@@ -39,3 +39,30 @@ for (let i = 0; i < 6; i++) {
     numb = numb + i; 
 }
 console.log(numb);
+6.
+const currentdDay = new Date().getDay();
+switch (currentdDay) {
+	case 0:
+		console.log("კვირა");
+		break;
+	case 1:
+		console.log("ორშაბათი");
+		break;
+	case 2:
+		console.log("სამშაბათი");
+		break;
+	case 3:
+		console.log("ოთხშაბათი");
+		break;
+	case 4:
+		console.log("ხუთშაბათი");
+		break;
+	case 5:
+		console.log("პარასკევი");
+		break;
+	case 6:
+		console.log("შაბათი");
+		break;
+    default:
+        console.log("შვებულება");
+};
